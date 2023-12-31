@@ -1,7 +1,7 @@
-; Copyright Â© Microsoft Corp.
+; Copyright © Microsoft Corp.
 
 [Theme]
-; Windows 7 - IDS_THEME_DISPLAYNAME_AERO
+; Windows - IDS_THEME_DISPLAYNAME_AERO
 DisplayName=Aero10Dark: Seven
 SetLogonBackground=0
 
@@ -38,20 +38,21 @@ SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
 SizeWE=%SystemRoot%\cursors\aero_ew.cur
 UpArrow=%SystemRoot%\cursors\aero_up.cur
 Wait=%SystemRoot%\cursors\aero_busy.ani
-DefaultValue=Windows Aero
+DefaultValue=Windows Default
 DefaultValue.MUI=@main.cpl,-1020
 
 [Control Panel\Desktop]
-Wallpaper=%SystemRoot%\web\wallpaper\Windows\img19.jpg
+Wallpaper=%ResourceDir%\Themes\Aero10\Wallpapers\img0.jpg
 TileWallpaper=0
 WallpaperStyle=10
 Pattern=
 
 [VisualStyles]
-Path=%ResourceDir%\Themes\Aero10\SevenDark\aero10dark_seven.msstyles
+Path=%ResourceDir%\Themes\Aero10Dark\aero10dark_seven.msstyles
 ColorStyle=NormalColor
 Size=NormalSize
-ColorizationColor=0XC40063B1
+AutoColorization=0
+ColorizationColor=0XC40078D7
 Transparency=1
 SystemMode=Dark
 AppMode=Dark
@@ -60,7 +61,7 @@ AppMode=Dark
 SCRNSAVE.EXE=
 
 [MasterThemeSelector]
-MTSM=DABJDKT
+MTSM=RJSPBS
 
 [Sounds]
 ; IDS_SCHEME_DEFAULT
