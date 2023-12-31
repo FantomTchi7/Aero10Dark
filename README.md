@@ -1,1 +1,1 @@
-Based off of work by vaporvance and ImSwordKing
+Based on the work by vaporvance and ImSwordKing
